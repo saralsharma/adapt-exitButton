@@ -1,0 +1,19 @@
+    // config.json
+    "_exitButton": {
+        "_isEnabled": true
+    }
+
+    // course.json
+    "_exitButton": {
+        "title":"Exit",
+        "_isEnabled": false,
+        "_hideExitButton": false,
+        "alt": "Exit",
+        "showInPageHeader":false
+    }
+
+    // contentObjects.json
+    "_exitButton": {
+        "_isEnabled": false,
+        "_hideExitButton": false
+    }

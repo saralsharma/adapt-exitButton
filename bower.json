@@ -1,0 +1,20 @@
+{
+    "name": "adapt-exitButton",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/saralsharma/adapt-exitButton.git"
+    },
+    "framework": ">=2.0.18",
+    "version": "1.0.11",
+    "homepage": "https://github.com/saralsharma/adapt-exitButton",
+    "displayName": "Exit Button",
+    "extension": "exitButton",
+    "description": "This is an extention which adds exit button, to the course navigation next to the progress bar or at top-right corner of page header. This button close the browser window, which improves user experience especially in mobile devices.",
+    "main": "/js/adapt-exitButton.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_exitButton"
+}

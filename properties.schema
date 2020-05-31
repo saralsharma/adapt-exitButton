@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": true,
+      "properties": {
+        "config": {
+          "type": "object",
+          "properties": {
+            "_exitButton": {
+              "type": "object",
+              "required": false,
+              "legend": "Exit Button",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": true,
+                  "title": "Enable control of the exit button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "_exitButton": {
+              "type": "object",
+              "required": false,
+              "legend": "Exit Button",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Enable control of the exit button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                }, 
+                "showInPageHeader": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Show exit button in page header and not in navigation bar.",
+                  "inputType": "Checkbox",
+                  "validators": []
+                }, 
+                "title": {
+                  "type": "string",
+                  "required": true,
+                  "default": "Exit",
+                  "inputType": "Text",
+                  "validators": [],
+                  "translatable": true
+                },
+                       
+                "alt": {
+                  "type": "string",
+                  "required": false,
+                  "default": "Exit",
+                  "title": "Exit button alt text",
+                  "inputType": "Text",
+                  "validators": [],
+                  "translatable": true
+                }
+              }
+            }
+          }
+        },
+        "contentobject": {
+          "type": "object",
+          "properties": {
+            "_exitButton": {
+              "type": "object",
+              "required": false,
+              "legend": "Exit Button",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Enable control of the exit button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                },
+                "_hideExitButton": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Hide the exit button",
+                  "inputType": "Checkbox",
+                  "validators": []
+                }
+              }
+            }
+          }
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}
