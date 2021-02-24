@@ -1,2 +1,2 @@
 # adapt-exitButton
-Add exit button to the course navigation next to the progress bar. This close the browser window, which improves user experience especially in mobile devices.
+<p>This Exit button is an extention which comes up at the top-right corner of the page, before the progress bar. It exits the course if the course is launched in new popup window. This improves user experience especially in mobile devices where the brwoser doesn't have upfront visible exit button.</p><img src="https://raw.githubusercontent.com/saralsharma/adapt-exitButton/master/exitButton-component-screenshot.jpg" alt="Adapt-exitButton component screenshot"/>
